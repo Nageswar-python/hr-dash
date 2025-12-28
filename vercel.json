@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "dist/hr-dashboard/**",
-      "use": "@vercel/static"
-    }
-  ],
+  "buildCommand": null,
+  "outputDirectory": "dist/hr-dashboard",
   "routes": [
-    { "src": "/(.*)", "dest": "/dist/hr-dashboard/index.html" }
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
