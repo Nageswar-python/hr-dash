@@ -2,6 +2,13 @@
   "version": 2,
   "outputDirectory": "dist/hr-dashboard",
   "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
+    {
+      "src": "/(.*\\.(js|css|png|jpg|jpeg|svg|ico|woff|woff2|ttf))",
+      "dest": "/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
   ]
 }
