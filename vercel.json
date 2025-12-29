@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "buildCommand": null,
+  "buildCommand": "npm run build",
   "outputDirectory": "dist/hr-dashboard",
   "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
   ]
 }
